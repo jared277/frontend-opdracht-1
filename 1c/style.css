@@ -32,14 +32,16 @@
   flex-grow: 1;
 }
 
-.content-top{
-  justify-content: top;
-}
+
 .col-8a{
   background-color: rgb(210, 33, 122);
 }
 .col-4a{
+  flex-basis: 25;
   background-color: #000;
+  align-content:top;
+  align-items: start;
+
 }
 
 [class^="col-"] {
